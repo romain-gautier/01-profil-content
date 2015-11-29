@@ -1,0 +1,17 @@
+body
+{
+  background-color: #E7E7E9;
+  font-family: "Open Sans";
+  color: #3F3F3F;
+}
+
+h1, h2, h3, h4
+{
+  font-family: Arvo;
+}
+
+a
+{
+  text-decoration: none;
+  color: #3F3F3F;
+}
