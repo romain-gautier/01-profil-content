@@ -18,8 +18,15 @@ body
   margin-bottom: 20px;
   background-color: white;
   box-shadow: 1px 1px 1px rgb(225, 225, 225);
-  border-radius: 1%;
+  border-radius: 10px;
   padding: 10px;
+}
+
+#photo_portrait
+{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
 }
 
 .card img
@@ -35,6 +42,11 @@ body
 .card p
 {
   text-align: justify;
+}
+
+.card ul
+{
+  text-align: center;
 }
 
 h1, h2, h3, h4
