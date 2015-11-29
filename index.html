@@ -7,7 +7,6 @@
 
     <title>Romain GAUTIER - Dev en devenir!</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|Montserrat:400,700' rel='stylesheet' type='text/css'>
@@ -23,9 +22,11 @@
 
   <body>
 
-  <div id="container">
+  <div class="container">
 
-    <div class="card">
+    <div id="left">
+
+    <div class="card text-center">
      <img src="images/romain.jpg" alt="Portrait photo de Romain Gautier" width="200px" id="photo_portrait">
 
      <h1>Romain Gautier</h1>
@@ -34,18 +35,19 @@
 
      <p>Président de <a href="http://www.loisirsclubaventures.fr" target="_blank"><strong>Loisirs Club Aventures</strong></a>, agence de voyages spécialisée dans le tourisme pour personnes porteuse de handicap.
       Je suis à la recherche d'un nouveau départ vers de nouveaux cieux et m'intéresse donc de plus en plus au web.</p>
+      <a href="#" class="btn-red">Plus d'infos</a>
     </div>
-
-    <div class="card">
-     <ul>
-       <li><a href="https://facebook.com/romsg" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-       <li><a href="http://www.twitter.com/romaingautier" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-       <li><a href="https://fr.linkedin.com/in/romain-gautier-a8a43125" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
-       <li><a href="http://www.instagram.com/romaingautier" target="_blank"><i class="fa fa-instagram"></i> Instagram</a></li>
-     </ul>
+      <div class="card text-center">
+       <ul class="list-inline">
+         <li><a href="https://facebook.com/romsg" target="_blank"><i class="fa fa-facebook-square"></i> Facebook</a></li>
+         <li><a href="http://www.twitter.com/romaingautier" target="_blank"><i class="fa fa-twitter-square"></i> Twitter</a></li>
+         <li><a href="https://fr.linkedin.com/in/romain-gautier-a8a43125" target="_blank"><i class="fa fa-linkedin-square"></i> Linkedin</a></li>
+       </ul>
+     </div>
    </div>
 
-    <div class="card">
+    <div id="right">
+    <div class="card text-justify">
       <h3>Mes films favoris</h2>
       <table>
         <tbody>
@@ -79,16 +81,36 @@
          </tbody>
        </table>
      </div>
+   </div>
 
-     <div class="card">
+    <div class="clear"></div>
+
+    <div id="footer">
+     <div class="card text-center">
        <h3>A propos de cette page</h3>
        <p>
          Cette page a été codée pour le track devenez développeur front end de <a href="https://ondemand.lewagon.org" target="blank">Le Wagon OnDemand</a>.
        </p>
+       <ul class="list-inline">
+         <li>
+           <a href="#">
+             <i class="fa fa-heart"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-share"></i>
+           </a>
+         </li>
+         <li>
+           <a href="#">
+             <i class="fa fa-star"></i>
+           </a>
+         </li>
+        </ul>
      </div>
+   </div>
 
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>

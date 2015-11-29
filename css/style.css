@@ -1,25 +1,27 @@
 body
 {
-  background-color: #E7E7E9;
+  background-color: #EBEBEB;
   font-family: "Open Sans";
   color: rgb(50, 50, 50);
 }
 
-#container
+.container
 {
-  width: 500px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: 30px auto;
+  background-color: #E5E5E5;
+  padding: 20px;
 }
 
 .card
 {
   border: solid 1px rgb(225, 225, 225);
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: white;
-  box-shadow: 1px 1px 1px rgb(225, 225, 225);
-  border-radius: 10px;
   padding: 10px;
+  background-color: white;
+  box-shadow: 1px 1px 3px rga(200, 200, 200);
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 #photo_portrait
@@ -34,19 +36,37 @@ body
   width: 100px;
 }
 
-.card h1, h2, h3
+.text-center
 {
   text-align: center;
 }
 
-.card p
+.btn-red
 {
-  text-align: justify;
+  background-color: #DD5555;
+  color: white;
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 2px;
 }
 
-.card ul
+.btn-red:hover
 {
-  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.list-inline
+{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.list-inline li
+{
+  display: inline-block;
+  width: 100px;
 }
 
 h1, h2, h3, h4
@@ -86,4 +106,26 @@ a:hover
   font-style: italic;
   color: black;
 
+}
+
+p
+{
+  text-align: justify;
+}
+
+#left
+{
+  width: 38%;
+  float: left;
+}
+
+#right
+{
+  width: 60%;
+  float: right;
+}
+
+.clear
+{
+  clear: both;
 }
