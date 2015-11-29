@@ -5,6 +5,38 @@ body
   color: rgb(50, 50, 50);
 }
 
+#container
+{
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card
+{
+  border: solid 1px rgb(225, 225, 225);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  box-shadow: 1px 1px 1px rgb(225, 225, 225);
+  border-radius: 1%;
+  padding: 10px;
+}
+
+.card img
+{
+  width: 100px;
+}
+
+.card h1, h2, h3
+{
+  text-align: center;
+}
+
+.card p
+{
+  text-align: justify;
+}
+
 h1, h2, h3, h4
 {
   font-family: Montserrat;
